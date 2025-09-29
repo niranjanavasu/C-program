@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+   double p,n,r,intreast;
+    scanf("%lf %lf %lf",&p,&n,&r);
+    intreast = p*n*r/100;
+    printf("%.2lf",intreast);
+    
+    return 0;
+}
