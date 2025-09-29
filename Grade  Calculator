@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+#include <stdio.h>
+
+int main() {
+    int marks;
+    scanf("%d", &marks);
+
+    if (marks < 1 || marks > 100) {
+        printf("Invalid Input\n");
+    } else if (marks >= 76) {
+        printf("A\n");
+    } else if (marks >= 51) {
+        printf("B\n");
+    } else if (marks >= 26) {
+        printf("C\n");
+    } else { // marks between 0 and 25
+        printf("D\n");
+    }
+
+    return 0;
+}
